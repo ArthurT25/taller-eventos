@@ -1,6 +1,10 @@
-const botonSaludar = document.getElementById('contenedor')
+const divContenedor = document.getElementById('contenedor');
 
-botonSaludar.addEventListener("click", () => {
-    event.stopPropagation;
+function saludar(event) {
+    event.stopPropagation();
+    alert("Saludirilijillos");
+}
+
+divContenedor.addEventListener("click", () => {
     alert("soy el div");
 })
